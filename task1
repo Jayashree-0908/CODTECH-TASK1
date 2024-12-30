@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <nav class="title">
+            <p class="name"> JAYASHREE R</p>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="box1">
+            <h1>HI I AM JAYASHREE R</h1>
+            <h4>I AM A COLLEGE STUDENT</h4>
+            <button onclick="document.location='https://www.linkedin.com/checkpoint/challengesV2/AQEicyiXafyjKgAAAZQWV-o26xaWGYL7hW-9hn-W177kEo0njOVbKwW-x8wOQ6XXX9fSrrKIWOgqJvz38pAXWweMf0IRr7-XnQ?ut=1ExNH7usn-nHA1'">CONNECT WITH ME 😊</button>
+        </div>
+        <div class="box2">
+            <hr>
+            <h2>About Me</h2>
+            <p>
+                "I was born in Coimbatore, where I completed my high schooling at CMS Vidhya Mandhir Matriculation Higher Secondary School. Currently, I am pursuing my undergraduate degree in Cognitive Systems at Sri Krishna Arts and Science College.
+
+            </p>
+            <br>
+            <p>
+                My hobbies include playing badminton, throwball, and running for fitness and fun. Additionally, painting allows me to express my creativity and unwind after a busy day. 
+
+            </p>
+            <hr>
+        </div>
+        <div class="box3">
+            <h2>Skill</h2>
+            <p>
+                I have expertise in HTML and CSS, enabling me to structure web content, style elements, create responsive designs, and enhance user experience with animations and layouts.
+            </p>
+        </div>
+        <div class="footer">
+            <h2> Contact</h2>
+            <form action="/action_page.php">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname" value=" Name"><br>
+                <label for="Email"> Email:</label><br>
+                <input type="text" id="lname" name="lname" value="Email@gmail.com"><br><br>
+                <label for="number">Number:</label><br>
+                <input type="number" id="Number" name="fname" value="0000000000"><br>
+                <label for="fname">Comments:</label><br>
+                <input type="text" id="comments" name="comments" value="comments"><br>
+                <input type="submit" value="Submit">
+
+              </form> 
+        </div>
+        <style>
+            .name{
+                font-family: cursive;
+                font-size:x-large;
+            }
+            body{
+                background-image: url(https://img.freepik.com/premium-photo/concrete-desktop-with-office-stuff_72104-399.jpg?w=996);
+            }
+                    .title ul {
+                        list-style: none;
+                        padding:0;
+                        text-align: right;
+                    }
+                    
+                    .title ul li {
+                        display: inline;
+                        margin:15px;
+                    }
+                    
+                    .title ul li a {
+                        color: black;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                .box1{
+                    text-align: center;
+                    padding-top: 50px;
+                    font-family: cursive;
+                }
+                .box2{
+                    padding: 50px;
+                    font-size:large;
+                    font-family: cursive;
+                }
+                .box3{
+                    padding: 50px;
+                    font-size:large;
+                    font-family: cursive;
+                }
+                .footer{
+
+                    padding: 50px;
+                    font-size:x-large;
+                    font-family: cursive;
+                    text-align: center;
+
+                }
+                    
+        </style>
+    </body>
+</html>
